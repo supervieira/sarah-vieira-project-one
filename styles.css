@@ -363,7 +363,6 @@ form{
 }
 
 
-/* footer p:last-child{ */
 .copyright{
     clear: both;
     background: rgb(13, 70, 88);
@@ -372,7 +371,6 @@ form{
     font-weight: bold;
     padding: 1% 0;
 }
-/* What pseudo-selector can I use to target last p in footer? Why is the other p highlighted when I use last-child selector?? */
 
 
 
@@ -663,12 +661,5 @@ footer a:hover{
 
 }
 
-/* 
-
-Font family:
-font-family: 'Poppins', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-
-*/
 
 
