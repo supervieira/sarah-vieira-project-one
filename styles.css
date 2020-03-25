@@ -58,7 +58,12 @@ h1{
     margin: 0;
 }
 
-header p{
+.header-span{
+    display: block;
+}
+
+header p,
+.header-span{
     font-size: 3.2rem;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -127,7 +132,7 @@ header a{
 
 header button{
     background: none;
-    font-size: 40px;
+    font-size: 5rem;
     color: white;
     position: absolute;
     top: 0;
@@ -150,12 +155,11 @@ header button{
 }
 
 .section-1 h2{
-    font-size: 32px;
+    font-size: 3rem;
 }
 
-.section-1 p,
-button{
-    font-size: 18px;
+.section-1 p{
+    font-size: 1.75rem;
 }
 
 
@@ -176,7 +180,7 @@ button{
 }
 
 .section-2 h2{
-    font-size: 26px;
+    font-size: 2.6rem;
 }
 
 .image-container,
@@ -204,7 +208,6 @@ button{
 .section-2 div:nth-of-type(4){
     padding-top: 5%;
     padding-left: 15%;
-    /* clear: both; */
 }
 
 
@@ -217,7 +220,7 @@ button{
 /* How to target 2nd content-container */
 
 .content-container p{
-    font-size: 18px;
+    font-size: 1.75rem;
     padding-top: 5%;
 }
 
@@ -281,11 +284,11 @@ button{
 }
 
 .section-4 h2{
-    font-size: 32px;
+    font-size: 3rem;
 }
 
 .section-4 p{
-    font-size: 18px;
+    font-size: 1.75rem;
     padding: 2% 0 1%;
     line-height: 1.7;
 }
@@ -314,20 +317,20 @@ button{
 footer{
     background: #215A6D;
     color: white;
-    font-size: 18px;
+    font-size: 1.75rem;
     line-height: 1.7;
 }
 
 footer form input{
     padding: 13px 0 13px 13px;
     width: 30vw;
+    border: none;
 }
 /* Can also use input[type=email] selector */
 
 footer button{
     position: relative;
     right: 4px;
-    bottom: 1px;
     padding: 15px 2vw;
 }
 
@@ -453,7 +456,7 @@ footer a:hover{
 
     .section-4 p,
     .footer-content{
-        font-size: 16px;
+        font-size: 1.7rem;
     }
 
     footer form input{
@@ -492,10 +495,8 @@ footer a:hover{
         width: 80%;
     }
 
-    .section-1 h2,
-    .section-2 h2,
-    .section-4 h2{
-        font-size: 32px;
+    .section-2 h2{
+        font-size: 3rem;
     }
 
     .image-container,
@@ -589,12 +590,12 @@ footer a:hover{
     }
 
     h1 {
-        font-size: 21vw;
+        font-size: 10rem;
         margin: 0;
     }
 
-    header p {
-        font-size: 6vw;
+    header button{
+        font-size: 4rem;
     }
 
     .icons{
@@ -630,7 +631,7 @@ footer a:hover{
 
     footer{
         text-align: center;
-        font-size: 20px;
+        font-size: 2rem;
         padding-top: 40px;
     }
 
@@ -641,7 +642,7 @@ footer a:hover{
     }
 
     footer form button{
-        font-size: 20px;
+        font-size: 2rem;
         top: 0;
         right: 0;
         margin-top: 0;
@@ -655,10 +656,16 @@ footer a:hover{
         float: none;
         margin: 0 auto;
         padding: 0 0 20px 0;
-        font-size: 20px;
+        font-size: 2rem;
         width: 60%;
     }
 
+}
+
+@media(max-width: 470px){
+    h1{
+        font-size: 8rem;
+    }
 }
 
 
